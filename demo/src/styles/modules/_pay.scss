@@ -1,0 +1,39 @@
+.in_right {
+    display: flex;
+    justify-content: flex-end;
+    ._btn {
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      background: rgba(255, 255, 255, 1);
+      //   border: 1px solid rgba(0, 153, 68, 1);
+      border-radius: 5px;
+    }
+  }
+  .in_center{
+    display: flex;
+    justify-content: center;
+    ._btn {
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      background: rgba(255, 255, 255, 1);
+      //   border: 1px solid rgba(0, 153, 68, 1);
+      border-radius: 5px;
+    }
+  }
+  .color_time {
+    color: #15bc9e;
+  }
+  .color_over {
+    color: #fb562f;
+  }
+  
+  li {
+    overflow: hidden;
+  }
+  .cell_font{
+    color: #323233;
+    font-size: 14px;
+    line-height: 24px;
+  }

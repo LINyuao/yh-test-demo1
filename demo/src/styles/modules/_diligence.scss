@@ -1,0 +1,66 @@
+.diligence{
+    
+    ._search{
+        padding: 10px 20px !important;
+        margin: 0 auto;
+        background: #1BA2FF !important;
+    }
+    .classform{
+        width: 100%;
+        ul li{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .crown{
+                width: 25%;
+                text-align: center;
+                font-size: 13px;
+                padding: 2px 0;
+            }
+        }
+    }
+     
+}
+.history{
+    height: 25px !important;
+    background:rgba(27,162,255,1) !important;
+    border:1px solid rgba(255,255,255,1);
+    border-radius:3px;
+    position: absolute !important;
+    right: 10px;
+    top: 10px;
+    line-height: 1px !important;
+    z-index: 111;
+    font-size:13px ;
+}
+// .van-button--normal {
+//     padding: 0 !important;
+// }
+.van-search__content{
+    border-radius: 20px !important
+}
+.public_blue{
+    background: #1BA2FF;
+}
+.public_green{
+    background: #20B0A8;
+}
+.public_red{
+    background: #F4555D;
+}
+.public_orange{
+    background: #FF9B24;
+}
+.bg_morning{
+    background: #ECF7FF;
+}
+.bg_Afternoon{
+    background: #FEF1F2;
+}
+.bg_evening{
+    background: #FFF5EA;
+}
+.bg_all{
+    background: #ffffff;
+}

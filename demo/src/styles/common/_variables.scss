@@ -1,0 +1,98 @@
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+
+/*
+ * 主题定义
+ */
+
+// UI预设分辨率
+$screen-width: 1920px;
+// 中文字体
+$font-family: 'PingFangSC',
+'helvetica neue',
+'hiragino sans gb',
+'arial',
+'microsoft yahei ui',
+'microsoft yahei',
+'simsun',
+'sans-serif' !important;
+// 字体大小
+$font-size-root: 20px;
+$font-size-root2: 20;
+$font-size-frame: 12px;
+// px 转换成 rem
+// $px 带px单位
+@function rem($px) {
+  @return #{$px*1.3/$font-size-root}rem;
+}
+@function rem2($px) {
+  @return #{$px*1.3/$font-size-root2}rem;
+}
+$font-size-extra-large: rem(20px);
+$font-size-large: rem(18px);
+$font-size-semibold: rem(16px);
+$font-size-normal: rem(14px);
+$font-size-small: rem(12px);
+
+// 文字颜色
+$color-gray:#EBEEF5;
+$color-extra-dark: #2C393F;
+$color-dark: #57636F;
+$color-normal: #8995A0;
+$color-light: #D4DCE3;
+$color-extra-light: #F2F2F2;
+// 背景颜色
+$background-color-extra-dark: #262B2E;
+$background-color-dark: #2E3437;
+$background-color-normal: #3A4762;
+$background-color-light: #CFCFCF;
+$bg-gray:#F2F2F2;
+$bg-light:#EBF0F5;
+$background-color-extra-light: #F2F2F2;
+// 边框颜色
+$border-color-normal: #ddd;
+$border-color-light: #F2F2F2;
+// 主题颜色
+$theme-default: #262B2E;
+$theme-primary: #409EFF;
+$theme-success: #3EC093;
+$theme-info: #0091DB;
+$theme-warning: #F7AD60;
+$theme-error: #FF7570;
+$theme-default_hover: #373E41;
+$theme-primary_hover: #26CDE6;
+$theme-success_hover: #56D3A5;
+$theme-info_hover: #37B5F5;
+$theme-warning_hover: #F8B671;
+$theme-error_hover: #FF8582;
+$theme-default_active: #02C1DE;
+$theme-primary_active: #00AD73;
+$theme-success_active: #2BAE83;
+$theme-info_active: #0082C5;
+$theme-warning_active: #F2A14C;
+$theme-error_active: #F26663;
+$theme-map: ( 'default': $theme-default, 'primary': $theme-primary, 'success': $theme-success, 'info': $theme-info, 'warning': $theme-warning, 'error': $theme-error, );
+
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}

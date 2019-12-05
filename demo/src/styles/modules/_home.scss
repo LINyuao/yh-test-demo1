@@ -1,0 +1,74 @@
+.homepage{
+    width: 100%;
+    .homepage_header{
+        display: flex;
+        height:110px;
+        background:rgba(27,162,255,1);
+        border-radius:3px 3px 3px 3px;
+        .homepage_header_left{          
+            width: 105px;
+            min-width: 105px;
+            height: 100%;
+            .homepage_header_picture{
+                position: relative;
+                top: 20px;
+                left: 17.5px;
+                border-radius: 50%;
+                width: 70px;
+                height: 70px;
+                background:#44C3FDFF;
+                .pic{
+                    position: absolute;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                }
+                .pic_nmdl
+                {
+                    background:url("~@/images/nmdl.jpg") ;
+                    background-size: 100%;
+                }
+                .pic_commom{
+                    background:url("~@/images/Shape5.png") ;
+                    background-size: 100%;
+                }
+        }
+        
+        }
+        .homepage_header_right{
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+        }
+    }
+    .homepage_content_frist{
+        background: #ffffff;
+        color: #999999FF;
+        font-size: 13.5px;
+        .homepage_content_header{
+            height: 30px;
+            line-height: 30px;
+            .homepage_content_icon{
+                position: relative;
+                top: 2px;
+            }
+            .homepage_content_header_font{
+                padding-left: 5px;
+                color: #333333FF;
+            }
+        }
+        .homepage_content_boxlist{
+            .van-grid-item{
+                height: 115px;
+            }
+            .van-image{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
