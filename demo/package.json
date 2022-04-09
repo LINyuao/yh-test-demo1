@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "lib-flexible": "^0.3.2",
     "mockjs": "^1.1.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mysql": "^2.17.1",
     "postcss-px2rem": "^0.3.0",
     "px2rem-loader": "^0.1.9",
